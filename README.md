@@ -3,7 +3,7 @@ Scrap YouTube
 
 # How to use to search
 
-```
+```python
 from uyt import youtube
 
 yt = youtube.Youtube("test") # grabs id then scraps YouTube so its slower
@@ -18,7 +18,7 @@ print("Published: %s" % yt.published)
 print("Genre: %s" % yt.genre)
 ```
 # How to use with ID
-```
+```python
 from uyt import youtube
 
 yt = youtube.Youtube(ID="<id>") # faster
@@ -34,12 +34,12 @@ print("Genre: %s" % yt.genre)
 ```
 
 # How to install
-```
+```bash
 python setup.py install
 python3 setup.py install
 ```
 # Test it
-```
+```bash
 python -m "uyt.youtube"
 python3 -m "uyt.youtube"
 ```
