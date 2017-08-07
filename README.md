@@ -3,7 +3,7 @@ scrap / search Youtube. You might ask why I use urllib/urllib2 instead of reques
 
 It can search youtube and find the ID of the first video.
 It can grab,
-- Video auther
+- Video author
 - Video titles
 - Video description
 - Video length (M=Minutes, S=seconds etc)
