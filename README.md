@@ -3,16 +3,16 @@ scrap / search Youtube. You might ask why I use urllib/urllib2 instead of reques
 
 It can search youtube and find the ID of the first video.
 It can grab,
-- Video auther,
-- Video titles, 
-- Video description,
-- Video length (M=Minutes, S=seconds etc),
+- Video auther
+- Video titles
+- Video description
+- Video length (M=Minutes, S=seconds etc)
 - Video views (it has commas) 
-- Video likes/dislikes (int values),
-- Video published (year-month-day),
+- Video likes/dislikes (int values)
+- Video published (year-month-day)
 - Video genres
 
-// NOTE
+* NOTE
 Everything network wise is done in the `__init__` to make things faster.
 
 # How to use to search
