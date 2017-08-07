@@ -2,7 +2,14 @@
 scrap / search Youtube. You might ask why I use urllib/urllib2 instead of requests. Well, its because I've noticed requests is a bit slower, plus I wanted it to be used out of the box. What can it do?
 
 It can search youtube and find the ID of the first video.
-It can grab auther, titles, description, length (M=Minutes, S=seconds etc), views (it has commas) likes/dislikes (int value), published (year-month-day), finally it gets the genres. 
+It can grab,
+-auther, 
+-titles, 
+-description,
+-length (M=Minutes, S=seconds etc),
+-views (it has commas) likes/dislikes (int value),
+-published (year-month-day),
+-genres
 
 // NOTE
 Everything network wise is done in the __init__ to make things faster.
