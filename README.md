@@ -13,7 +13,7 @@ It can grab,
 - Video genres
 
 // NOTE
-Everything network wise is done in the __init__ to make things faster.
+Everything network wise is done in the `__init__` to make things faster.
 
 # How to use to search
 
