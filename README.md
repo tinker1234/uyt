@@ -7,7 +7,8 @@ It can grab,
 - Video titles, 
 - Video description,
 - Video length (M=Minutes, S=seconds etc),
-- Video views (it has commas) likes/dislikes (int value),
+- Video views (it has commas) 
+- Video likes/dislikes (int values),
 - Video published (year-month-day),
 - Video genres
 
