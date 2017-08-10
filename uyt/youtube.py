@@ -32,7 +32,7 @@ class Youtube(object):
 	def _getItem(self, pattern, flag=re.M):
 		m = re.search(pattern, self.source, flag)
 		if m: return m.groups()
-		else: return range(0, 1)
+		else: raise Exception("Couldn't find item using %s and flag %s" % (pattern, flag))
 
 	def _getID(self, q):
 		url = "https://youtube.com/results?search_query=" + q.replace(" ", "+")
