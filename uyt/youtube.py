@@ -54,15 +54,3 @@ class Youtube(object):
 		self.genre = self._getItem(ytm % "genre")[0]
 
 	def __repr__(self): return "<Youtube.id=%s, Youtube.name=%s, Youtube.views=%s>" % (self.id, self.name, self.views)
- 
-if __name__=="__main__":
-	yt = Youtube("test")
-	print("Author: %s" % yt.name)
-	print("Title: %s" % yt.title)
-	print("Description: %s" % yt.description)
-	print("Length: %s" % yt.length)
-	print("Views: %s" % yt.views)
-	print("Likes: {0}%".format(yt.likes))
-	print("Dislikes: {0}%".format(yt.dislikes))
-	print("Published: %s" % yt.published)
-	print("Genre: %s" % yt.genre)
