@@ -1,5 +1,5 @@
 # uyt
-scrap / search Youtube. You might ask why I use urllib/urllib2 instead of requests. Well, its because I've noticed requests is a bit slower, plus I wanted it to be used out of the box. What can it do?
+scrap / search Youtube. 
 
 It can search youtube and find the ID of the first video.
 It can grab,
